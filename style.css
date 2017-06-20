@@ -4,16 +4,14 @@
 }
 
 nav ul {
-  background-color: black;
   padding: 1em;
   overflow: hidden;
-  border-bottom: 1px solid white;
+
 }
 
 nav ul li{
-  color: white;
   display: inline;
-  font-size: 1.8em;
+  font-size: 1.4em;
   margin-left: .5em;
   float: right;
 }
@@ -22,4 +20,27 @@ nav ul li{
   background-image: url('./assets/images/splash-melb.jpg');
   height: 100vh;
   background-size: cover;
+}
+
+.project-container {
+  padding: 2em;
+  background-color: green;
+}
+
+.project {
+  margin: 1em;
+  border: 1px black solid;
+  padding: 2em;
+}
+
+.bio-container {
+  padding: 1em;
+}
+
+.bio-container img{
+  height: 8em;
+  width: 8em;
+  border-radius: 360px;
+  float: left;
+  margin: 0 1em;
 }
