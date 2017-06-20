@@ -3,6 +3,21 @@
   padding: 0;
 }
 
+nav ul {
+  background-color: black;
+  padding: 1em;
+  overflow: hidden;
+  border-bottom: 1px solid white;
+}
+
+nav ul li{
+  color: white;
+  display: inline;
+  font-size: 1.8em;
+  margin-left: .5em;
+  float: right;
+}
+
 .splash {
   background-image: url('./assets/images/splash-melb.jpg');
   height: 100vh;
