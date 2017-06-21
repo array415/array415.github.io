@@ -23,7 +23,7 @@ nav ul li{
 }
 
 .project-container {
-  padding: 2em;
+  padding: 2em 5em;
   background-color: green;
 }
 
@@ -31,10 +31,31 @@ nav ul li{
   margin: 1em;
   border: 1px black solid;
   padding: 2em;
+  overflow: hidden;
+  text-align: center;
 }
 
+.project h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.project p {
+  font-size: 1.2em;
+  margin-left: 16em;
+  padding: 0 3em;
+}
+
+.project img{
+  float:left;
+  height: 300px;
+  width: 300px;
+  margin-right: 1em;
+}
+
+
 .bio-container {
-  padding: 1em;
+  padding: 4em;
 }
 
 .bio-container img{
@@ -42,5 +63,5 @@ nav ul li{
   width: 8em;
   border-radius: 360px;
   float: left;
-  margin: 0 1em;
+  margin: 0 2em;
 }
