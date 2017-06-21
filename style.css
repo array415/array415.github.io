@@ -7,26 +7,6 @@ body {
   background: rgb(20, 34, 40);
 }
 
-h1 {
-  border-bottom: 1px rgb(120, 96, 66) solid;
-  padding-bottom: 1.3em;
-}
-
-h1,
-h2 {
-  font-family: 'Old Standard TT', 'Serif';
-  color: rgb(120, 96, 66);
-  font-size: 2em;
-  margin-bottom: 1em;
-  text-align: center;
-}
-
-p {
-  font-family: 'Questrial', 'sans-serif';
-  font-size: 1.2em;
-  color: rgb(203, 215, 221);
-}
-
 nav ul {
   padding: 1em;
   overflow: hidden;
@@ -41,13 +21,45 @@ nav ul li{
   color: rgb(20, 34, 40);
 }
 
+h1 {
+  border-bottom: 1px rgb(120, 96, 66) solid;
+  padding-bottom: 1.3em;
+}
+
+p {
+  font-family: 'Questrial', 'sans-serif';
+  font-size: 1.2em;
+  color: rgb(203, 215, 221);
+}
+
+h1,
+h2 {
+  font-family: 'Old Standard TT', 'Serif';
+  color: rgb(120, 96, 66);
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+i {
+  color: rgb(203, 215, 221);
+  font-size: 4em;
+}
+
+i:hover {
+  text-shadow: 0 0 0.5em black;
+}
+
+/*SPLASH CSS*/
 .splash {
   background-image: url('./assets/images/splash-melb.jpg');
   height: 100vh;
   background-size: cover;
   box-shadow: 0 0 1em black;
 }
+/*END OF SPLASH CSS*/
 
+/*PROJECT CSS*/
 .project-container {
   padding: 6em 8em;
 }
@@ -59,11 +71,6 @@ nav ul li{
   text-align: center;
 }
 
-.project p {
-  margin-left: 16em;
-  padding: 0 3em;
-}
-
 .project img{
   float:left;
   height: 20em;
@@ -71,6 +78,13 @@ nav ul li{
   margin-right: 1em;
 }
 
+.project p {
+  margin-left: 16em;
+  padding: 0 3em;
+}
+/*END OF PROJECT CSS*/
+
+/*BIO CSS*/
 .bio-container {
   padding: 6em 8em;
   box-shadow: 0 0 2em rgb(0,0,0);
@@ -90,3 +104,20 @@ nav ul li{
   color: rgb(20, 34, 40);
   padding: 0.3em;
 }
+/*END OF BIO CSS*/
+
+/*SKILLS CSS*/
+.skills-container {
+  padding: 6em 8em;
+}
+
+.skills-container ul {
+  text-align: center;
+}
+
+.skills-container li {
+  display: inline;
+  padding-right: 1em;
+}
+
+/*END OF SKILLS CSS*/
