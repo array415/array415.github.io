@@ -8,8 +8,17 @@ body {
 }
 
 h1 {
+  border-bottom: 1px rgb(120, 96, 66) solid;
+  padding-bottom: 1.3em;
+}
+
+h1,
+h2 {
   font-family: 'Old Standard TT', 'Serif';
   color: rgb(120, 96, 66);
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 p {
@@ -21,14 +30,15 @@ p {
 nav ul {
   padding: 1em;
   overflow: hidden;
-
 }
 
 nav ul li{
   display: inline;
-  font-size: 1.4em;
+  font-size: 1.8em;
   margin-left: .5em;
   float: right;
+  font-family: 'Old Standard TT', 'Serif';
+  color: rgb(20, 34, 40);
 }
 
 .splash {
@@ -39,8 +49,7 @@ nav ul li{
 }
 
 .project-container {
-  padding: 2em 5em;
-
+  padding: 6em 8em;
 }
 
 .project {
@@ -48,11 +57,6 @@ nav ul li{
   padding: 2em;
   overflow: hidden;
   text-align: center;
-}
-
-.project h1 {
-  font-size: 2em;
-  margin-bottom: 1em;
 }
 
 .project p {
@@ -68,8 +72,9 @@ nav ul li{
 }
 
 .bio-container {
-  padding: 4em 8em;
-  box-shadow: 0 0 1em rgba(0,0,0,0.4);
+  padding: 6em 8em;
+  box-shadow: 0 0 1em rgb(0,0,0);
+  background: rgb(203, 215, 221);
 }
 
 .bio-container img{
@@ -78,4 +83,10 @@ nav ul li{
   border-radius: 360px;
   float: left;
   margin: 0 2em;
+  box-shadow: 0 0 0.5em black;
+}
+
+.bio-container p {
+  color: rgb(20, 34, 40);
+  padding: 0.3em;
 }
